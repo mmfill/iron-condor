@@ -2,6 +2,7 @@
 Attempt to create a machine learning model for Iron Condor investment. Because so many apporaches are tested the code is nested in Jupyter notebooks for better understanding. The goal is to find the ideal approach for the best model to predict the data as good as possible (maximise return of investment).
 
 A blog post for this project can be found on:
+https://medium.com/@matthias.fill/a-machine-learning-approach-to-the-iron-condor-8bf1ead4af5a
 
 Iron Condor: The iron condor is a investment strategy using four options with the same strike date. More precise, the iron condor uses two vertical spreads, one put spread and a call spread. The put spread consists at of a short put option (P_s) with a strike price below the actual stock price and a long put option (P_l) with a strike price below the short put option P_s. The call spread consists of a short call option (C_s) above the actual stock price and a long call option (C_l) above the short call option C_s. All options have the same strike date and the spread on both legs can vary but is chosen mostly the same.
 
